@@ -15,6 +15,7 @@
             @include('partials.flash')
           <div class="box">
             <div class="box-header">
+              <button>nonsensense</button>
               <h3 class="box-title">{{__('Customers List')}}</h3><a class="btn btn-small btn-primary pull-right" href="{{ URL::to('customers/create') }}"><i class="fa fa-plus"></i>&nbsp; {{trans('customer.new_customer')}}</a>
             </div>
           </div>
