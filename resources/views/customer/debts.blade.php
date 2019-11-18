@@ -4,7 +4,7 @@
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>{{__('Customer')}}</h1>
+      <h1>{{__('Debtots')}}</h1>
     </section>
     <!-- Main content -->
     <section class="content">
@@ -15,7 +15,7 @@
             @include('partials.flash')
           <div class="box">
             <!--<div class="box-header">
-              <h3 class="box-title">{{__('Debtors List')}}</h3><a class="btn btn-small btn-primary pull-right" href="{{ URL::to('customers/create') }}"><i class="fa fa-plus"></i>&nbsp; {{trans('customer.new_customer')}}</a>
+              <h3 class="box-title">{{__('Debtors')}}</h3><a class="btn btn-small btn-primary pull-right" href="{{ URL::to('customers/create') }}"><i class="fa fa-plus"></i>&nbsp; {{trans('customer.new_customer')}}</a>
             </div>-->
           </div>
             <!-- /.box-header -->
