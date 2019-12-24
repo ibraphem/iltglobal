@@ -27,7 +27,7 @@
                         <tr ng-repeat="item in items  | filter: searchKeyword | limitTo:10">
                         
                         
-                        <td>@{{item.size}}  | @{{item.quantity}}</td>
+                        <td>@{{item.upc_ean_isbn}}  | @{{item.item_name}}</td>
                         <td style="display: none;" id="tableQty">@{{item.quantity}}</td>
                         <td><button class="btn btn-success btn-xs" type="button" ng-click="addSaleTemp(item, newsaletemp)"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></button></td>
                         

@@ -31,11 +31,12 @@
         <tr>
     <!--        <td>{{trans('item.item_id')}}</td> -->
             <td>Item Reference</td>
-            <td>{{trans('item.item_name')}}</td>
-            <td>Model</td>
+            <td>Description</td>
+           <!-- <td>Model</td> -->
           <!--  <td>{{trans('item.cost_price')}}</td> -->
-            <td>Price</td>
           <td>{{trans('item.quantity')}}</td>
+            <td>Price</td>
+          
            <td>Actions</td> 
          <!--   <td>{{trans('item.avatar')}}</td> -->
         </tr>
@@ -47,10 +48,11 @@
         <!--    <td style="color:red">{{ $value->id }}</td> -->
             <td>{{ $value->upc_ean_isbn }}</td>
             <td>{{ $value->item_name }}</td>
-            <td>{{ $value->size }}</td>
+            <!--<td>{{ $value->size }}</td> -->
            <!-- <td style="color:red">{{ $value->cost_price }}</td> -->
+           <td>{{ $value->quantity }}</td>
             <td>{{ $value->selling_price }}</td>
-            <td>{{ $value->quantity }}</td>
+            
             <td class="item_btn_group">
                 <div class="btn-group">
                   <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
