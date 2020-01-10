@@ -30,6 +30,6 @@ class CustomerRegistrationMail extends Mailable
     public function build()
     {
          //return $this->view('view.name');
-         return $this->from('info@agrong.com.ng')->subject('LOGIN INFORMATION RECORDS')->view("emails.customermail")->with('data', $this->data);
+         return $this->from('ETS BEAUTY WORLD - HAIR')->subject('LOGIN INFORMATION RECORDS')->view("emails.customermail")->with('data', $this->data);
     }
 }

@@ -22,15 +22,15 @@
                          <!--   <img src="asset/images/yareecee1.png" style="height: 150px;" /> -->
                     </div>
                     <div class="col company-details" style="margin-top: -100px;">
-                    <sup style="color: red;"><b>REG: 887372</b></sup>
+                    <sup style="color: red;"><b>REG: 1230545</b></sup>
                         <h2 class="name" style="color: #0c0028;" >
                             
-                            YAREECE VENTURES
+                           ETS BEAUTY WORLD - (HAIR & COSMETICS SHOP)
                         </h2>
-                        <div><span style="color: red;"><b>Head Office:</b></span><span style="color: #0c0028;"> 13B, Baale Animashaun Road, Dalemo, Alakuko, Lagos</span></div>
-                        <div><span style="color: red;"><b>Annex Office:</b></span><span style="color: #0c0028;"> 48, Fakoya Street, Egbeda, Akowonjo, Lagos</span></div>
-                       <div> <span style="color: red;"><b>Telephone No:</b></span><span style="color: #0c0028;"> 08033674382, 08025719488</span></div>
-                      <div>  <span style="color: red;"><b>Email:</b></span><span style="color: #0c0028;"> yareeceventures@gmail.com</span></div>
+                        <div><span style="color: red;"><b>Head Office:</b></span><span style="color: #0c0028;">  82 clem road, jankara Market, Ijaiye Lagos.</span></div>
+                        <div><span style="color: red;"><b>Annex Office:</b></span><span style="color: #0c0028;"> 28 Folarin Gbadebo Avenue, Off ikereku Road, Adetola,Agbado Ijaiye Lagos</span></div>
+                       <div> <span style="color: red;"><b>Telephone No:</b></span><span style="color: #0c0028;"> 08187331184, 08034318514</span></div>
+                      <div>  <span style="color: red;"><b>Email:</b></span><span style="color: #0c0028;"> ekinnetitty@etsglobal.com.ng, ekinnetitty@yahoo.com</span></div>
                     </div>
                 </div>
             </header>
@@ -46,7 +46,7 @@
                         
                     </div>
                     <div class="col invoice-details" style="margin-top: -100px">
-                        <h2 class="invoice-id" style="color: #0c0028;">YAR00{{$saleItemsData->sale_id}}</h2>
+                        <h2 class="invoice-id" style="color: #0c0028;">ETS00{{$saleItemsData->sale_id}}</h2>
                         <div class="date">Date: {{ Carbon\Carbon::now() }}</div>
                         <div class="date">Attendant: {{$sales->user->name}}</div>
                     </div>

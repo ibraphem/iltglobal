@@ -45,6 +45,7 @@
                     </tr>
                 </thead>
                 <tbody>
+                   
                 @foreach($employee as $value)
                     <tr style=" @if(!$value->status){{$color = "background-color:#ffb3b3"}}@endif">
                         <td>{{ $value->id }}</td>

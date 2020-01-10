@@ -82,7 +82,7 @@ class EmployeeController extends Controller
                 'username' => $users->email ,
                 'password' => $pword             
             ); 
-            Mail::to('info@thepath.com.ng')->send(new CustomerRegistrationMail($data));
+            //Mail::to('info@thepath.com.ng')->send(new CustomerRegistrationMail($data));
            
         }
 
@@ -112,7 +112,7 @@ class EmployeeController extends Controller
     public function update(Request $request, $id)
     {
         if ($id == 1) {
-            Session::flash('message', 'You cannot edit admin on FlexiblePos v2.0');
+            Session::flash('message', 'You cannot edit admin');
             Session::flash('alert-class', 'alert-danger');
                 return Redirect::to('employees');
         } else {

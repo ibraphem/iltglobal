@@ -43,12 +43,24 @@
     </thead>
     <tbody>
     @foreach($item as $value)
-   
-        <tr>
+       <?php 
+            $bgcolor = $stock_title = "" ; 
+            if($value->quantity <= 5){
+              $bgcolor = "#ffe6e6";
+            }
+
+            if($value->quantity == 0){
+              $bgcolor = "#ff4d4d";
+            }
+            
+        ?>
+        <tr  style="background: {{$bgcolor}}">
         <!--    <td style="color:red">{{ $value->id }}</td> -->
             <td>{{ $value->upc_ean_isbn }}</td>
             <td>{{ $value->item_name }}</td>
-            <!--<td>{{ $value->size }}</td> -->
+            
+
+          
            <!-- <td style="color:red">{{ $value->cost_price }}</td> -->
            <td>{{ $value->quantity }}</td>
             <td>{{ $value->selling_price }}</td>
