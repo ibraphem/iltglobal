@@ -261,22 +261,22 @@ a[x-apple-data-detectors] {
                    <table width="100%" cellspacing="0" cellpadding="0" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;"> 
                      <tr style="border-collapse:collapse;"> 
                       <td esdev-links-color="#999999" align="center" style="padding:0;Margin:0;"> <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;color:#FFFFFF;">
-                        You are receiving this email because you are staff of YAREECE VENTURES.</p></td> 
+                        You are receiving this email because you are staff of ETS BEAUTY WORLD - HAIR & COSMETICS.</p></td> 
                      </tr> 
                      <tr style="border-collapse:collapse;"> 
                       <td align="center" style="padding:0;Margin:0;padding-bottom:5px;"> <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;color:#FFFFFF;">You can also <a target="_blank" href="https://dalemo.yareece.com.ng" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;font-size:14px;text-decoration:none;color:#F6A1B4;">Login</a> from here.</p></td> 
                      </tr> 
                      <tr style="border-collapse:collapse;"> 
                       <td esdev-links-color="#999999" align="center" style="padding:0;Margin:0;padding-bottom:5px;"> <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;color:#FFFFFF;">
-                          Dealers in Kinds of Electric Appliances and General Contractors, Refrigerator, Freezer, Home theatre, Generator, LCD TV, Flat Screen TV, Air Condition, Electric Iron, Blender, Kettle ,etc.
+                          Dealers in all Kinds of Hair and Cosmetics.
                       </p></td> 
                      </tr> 
                      <tr style="border-collapse:collapse;"> 
-                        <td esdev-links-color="#999999" align="center" style="padding:0;Margin:0;padding-bottom:5px;"> <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;color:#FFFFFF;">08033674382, 08026719488.</p></td> 
+                        <td esdev-links-color="#999999" align="center" style="padding:0;Margin:0;padding-bottom:5px;"> <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;color:#FFFFFF;">08187331184, 08034318514.</p></td> 
                        </tr> 
                        <tr style="border-collapse:collapse;"> 
                         <td esdev-links-color="#999999" align="center" style="padding:0;Margin:0;padding-bottom:5px;"> <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:14px;font-family:helvetica, 'helvetica neue', arial, verdana, sans-serif;line-height:21px;color:#FFFFFF;">
-                            sales@yareece.com.ng</p></td> 
+                            sales@etsglobal.com.ng</p></td> 
                        </tr> 
                    </table> </td> 
                  </tr> 
