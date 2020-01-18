@@ -78,7 +78,7 @@
                               <ul class="dropdown-menu" role="menu">
                                 <li><a href="{{ url('employees/' . $value->id . '/edit') }}"><i class="fa fa-pencil"></i> {{trans('employee.edit')}}</a></li>
                                 <li>
-                                    <a href="#" class="delete-form" onclick="return confirm('are you sure?')"><i class="fa fa-trash-o"></i>{{ Form::open(array('url' => 'employees/' . $value->id, 'class' => 'form-inline')) }}
+                                    <a class="delete-form" ><i class="fa fa-trash-o"></i>{{ Form::open(array('url' => 'employees/' . $value->id, 'class' => 'form-inline')) }}
                                 {{ Form::hidden('_method', 'DELETE') }}
                                 {{ Form::submit(trans('employee.delete'), array('class' => 'delete-btn')) }}
                             {{ Form::close() }}</a></li>

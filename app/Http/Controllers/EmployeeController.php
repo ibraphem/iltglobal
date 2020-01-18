@@ -151,18 +151,20 @@ class EmployeeController extends Controller
     public function destroy($id)
     {
         if ($id == 1) {
-            Session::flash('message', __('You cannot delete admin on FlexiblePos'));
+            Session::flash('message', __('You cannot delete Super Admin'));
             Session::flash('alert-class', 'alert-danger');
                 return Redirect::to('employees');
         } else {
+
             try {
                 $users = User::find($id);
+                //dd($users);
                 $users->delete();
                 // redirect
                 Session::flash('message', __('You have successfully deleted employee'));
                 return Redirect::to('employees');
             } catch (\Illuminate\Database\QueryException $e) {
-                Session::flash('message', __('Integrity constraint violation: You Cannot delete a parent row'));
+                Session::flash('message', __('You can not delete this user because He was was attributed to sale(s) : Integrity concern'));
                 Session::flash('alert-class', 'alert-danger');
                 return Redirect::to('employees');
             }

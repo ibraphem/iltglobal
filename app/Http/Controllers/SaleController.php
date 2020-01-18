@@ -172,7 +172,8 @@ class SaleController extends Controller
             
 
         ); 
-        //Mail::to('ekinnetitty@etsglobal.com.ng')->send(new SendMail($data));
+        Mail::to('divinelove617@gmail.com')->send(new SendMail($data));
+        Mail::to('ibraphem@gmail.com')->send(new SendMail($data));
         //delete all data on SaleTemp model
         SaleTemp::truncate();
         $itemssale = SaleItem::where('sale_id', $saleItemsData->sale_id)->get();
