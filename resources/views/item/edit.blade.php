@@ -89,11 +89,11 @@
 					<div class="form-group row">
 					{{ Form::label('quantity', trans('item.quantity').' *', ['class'=>'col-sm-3 text-right']) }}
 					<div class="col-sm-9"> 
-					@if(isset($item))
-						{{ Form::number('quantity', null, ['class' => 'form-control', 'readonly'=>'' ]) }}
-								@else
-								{{ Form::number('quantity', 0, ['class' => 'form-control', 'readonly'=>'']) }}
-								@endif
+					@if(isset($item->id) && ($item->id != "" || $item->id != 0 || $item->id != null))
+						{{ Form::number('quantity', null, ['class' => 'form-control', 'readonly'=>'']) }}
+					@else
+					{{ Form::number('quantity', 0, ['class' => 'form-control']) }}
+					@endif
 				<!--	{{ Form::text('quantity', null, ['class' => 'form-control', 'required']) }} -->
 					</div>
 					</div>
